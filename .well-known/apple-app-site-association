@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["Y8TQ98F5N3.media.615.ledger"],
+        "components": [
+          { "/": "/plaid/oauth*", "comment": "Plaid OAuth return to Ledger" }
+        ]
+      }
+    ]
+  }
+}
