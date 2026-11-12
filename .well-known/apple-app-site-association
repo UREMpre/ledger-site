@@ -6,7 +6,9 @@
         "components": [
           { "/": "/plaid/oauth*", "comment": "Plaid OAuth return to Ledger" },
           { "/": "/join*", "comment": "Share-setup invite; the payload is in the URL fragment and never reaches the server" },
-          { "/": "/friend*", "comment": "Public shaming friend invite; the code is in the URL fragment" }
+          { "/": "/friend*", "comment": "Public shaming friend invite; the code is in the URL fragment" },
+          { "/": "/r", "comment": "Referral link; the username is in the URL fragment" },
+          { "/": "/r/*", "comment": "Referral link with the username in the path" }
         ]
       }
     ]
