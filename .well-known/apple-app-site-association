@@ -8,7 +8,8 @@
           { "/": "/join*", "comment": "Share-setup invite; the payload is in the URL fragment and never reaches the server" },
           { "/": "/friend*", "comment": "Public shaming friend invite; the code is in the URL fragment" },
           { "/": "/r", "comment": "Referral link; the username is in the URL fragment" },
-          { "/": "/r/*", "comment": "Referral link with the username in the path" }
+          { "/": "/r/*", "comment": "Referral link with the username in the path" },
+          { "/": "/u", "comment": "Public profile link; the username is in the URL fragment" }
         ]
       }
     ]
