@@ -9,7 +9,8 @@
           { "/": "/friend*", "comment": "Public shaming friend invite; the code is in the URL fragment" },
           { "/": "/r", "comment": "Referral link; the username is in the URL fragment" },
           { "/": "/r/*", "comment": "Referral link with the username in the path" },
-          { "/": "/u", "comment": "Public profile link; the username is in the URL fragment" }
+          { "/": "/u", "comment": "Public profile link; the username is in the URL fragment" },
+          { "/": "/play*", "comment": "A Messages table game (1.2); the game is in the URL fragment" }
         ]
       }
     ]
